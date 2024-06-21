@@ -78,10 +78,12 @@ You need to set up `Ctrl + 0` and `Ctrl + 2` for langs which you want to switch 
 
 ### Start lang.exe 
 
+![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/4775344d-b114-47e3-b33e-d5569f0a1ec7)
 
 
-### Or AutoHotKey .ahk config with AutoHotKey program
+### Or AutoHotKey .ahk config with AutoHotKey program as Administrator
 
+![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/6461bd39-00d3-4716-bc99-8d25d878354d)
 
 
 **WE USING AHK AutoHotKey programm which uses C++ like programm language AutoHotKey for `Microsoft Windows`**
