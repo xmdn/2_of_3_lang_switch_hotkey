@@ -1,11 +1,12 @@
 # 2_of_3_lang_switch_hotkey
 This script for AutoHotKey key binder script for Windows 10 you can now switch between two layouts of keyboard language, when you will have third with some bindings
 
-First steps:
-1) Get the project cloned or downloaded in zip;
+# FIRST STEPS:
+
+# 1) Get the project cloned or downloaded in zip;
 
 
-2) Do next steps to use this script correctly:
+# 2) Do next steps to use this script correctly:
 
   For checking your language codes do next steps (if you also using it only for eng & ukr, and separate from rus hotkey switches, you DO NO NEED TO DO NEXT STEPS):
   Move to: Win + r -> regedit
