@@ -1,14 +1,12 @@
 # 2_of_3_lang_switch_hotkey
 This script for AutoHotKey key binder script for Windows 10 you can now switch between two layouts of keyboard language, when you will have third with some bindings
 
-# FIRST STEPS:
+To starting you need to get the project cloned or downloaded in zip.
+And continue by this guide
 
-# 1) Get the project cloned or downloaded in zip;
+# Do next steps to use this script correctly:
 
-
-# 2) Do next steps to use this script correctly:
-
-  For checking your language codes do next steps (if you also using it only for eng & ukr, and separate from rus hotkey switches, you DO NO NEED TO DO NEXT STEPS):
+  For checking your language codes do next steps (**if you also using it only for eng & ukr**, and separate from rus hotkey switches, you **DONT DO NEXT STEPS**):
   Move to: Win + r -> regedit
   ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/0f869c2c-2f70-4e8f-8163-5e92993c484b)
 
@@ -22,9 +20,9 @@ This script for AutoHotKey key binder script for Windows 10 you can now switch b
   2) 00000419 - Russian lang (this can be switched no matter which lang was before, you will switch to this by "Alt + R");
   3) 00000422 - Ukranian lang (this will be switchable by "shift + alt" if we choosed Eng lang);
   
-  It is your lang codes, remember it (you will see another codes if you DO NOT USED IT WITH English, Ukranian and Russian language layouts).
+  It is your lang codes, **remember it** (you will see another codes if you DO NOT USED IT WITH English, Ukranian and Russian language layouts).
 
-Move to:
+**Move to:**
 Settings->Devices->Typing
 ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/ddbd2904-9915-4573-a0e1-d4d88fbc022f)
 
@@ -33,8 +31,19 @@ Click on "Advanced keyboard settings" and click on "Input language hot keys"
 
 You will see window, and here on "Advanced Key Settings" you need to turn off default Between input language switch (which is by default is shift + alt for changing language.
 You need to set up ctrl + 0 and ctrl + 2 for langs which you want to switch by "shift + alt" and which you want to switch with "alt + r" is ctrl + 1. 
-Apply config for hotkeys.
 
-in our code english
+**Apply config for hotkeys.**
 
+**If you using another languages**, you need to change variables in our hotkey code file:
+`
+englishLayout := "00000409"  ; English (United States)
+ukrainianLayout := "00000422"  ; Ukrainian (Ukraine)
+`
+**Paste here your two langs registry codes, which should be switchable, like in our case is End and Ukr langs**
+
+We have method which takes number in parameters when called. This method will simulated pressing a buttons "Ctrl" + Number in params:
+	
+`SetKeyboardLayoutShortcut(shortcut) {
+    Send, {Ctrl down}%shortcut%{Ctrl up}
+}`
 
