@@ -74,14 +74,22 @@ You need to set up `Ctrl + 0` and `Ctrl + 2` for langs which you want to switch 
   </code>
 </pre>
 
-# Running AutoHotKey .ahk config
+# Running script
+
+### Start lang.exe 
+
+
+
+### Or AutoHotKey .ahk config with AutoHotKey program
+
+
 
 **WE USING AHK AutoHotKey programm which uses C++ like programm language AutoHotKey for `Microsoft Windows`**
 
 **You can get it on:** https://www.autohotkey.com/
 
 ### After installation you should execute our lang.ahk file with AutoHotKey programm 
-and you will see in tray running script:
+and you will see in tray running script lang.ahk:
 
 ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/1617a8cc-362e-4749-83d3-22e2e656c4b3)
 
