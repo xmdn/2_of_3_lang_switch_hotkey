@@ -2,7 +2,8 @@
 This script for AutoHotKey key binder script for Windows 10 you can now switch between two layouts of keyboard language, when you will have third with some bindings
 
 First steps:
-1) get the project cloned or download zip;
+1) Get the project cloned or downloaded in zip;
+
 
 2) Do next steps to use this script correctly:
 
