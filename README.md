@@ -1,5 +1,6 @@
 # 2_of_3_lang_switch_hotkey
-This script for AutoHotKey key binder script for Windows 10 you can now switch between two layouts of keyboard language, when you will have third with some bindings
+This script for AutoHotKey key binder for Windows 10 which give opportuniny to switch two languages with `Shift + Alt` but third with macros `Alt + R`.
+So you will switch two languages fast and simple and have third in cases when you really need it, **you don’t need to press an extra time in 90% of cases when you need another language**.
 
 To starting you need to get the project cloned or downloaded in zip.
 And continue by this guide
