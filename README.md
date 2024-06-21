@@ -95,3 +95,6 @@ and you will see in tray running script lang.ahk:
 
 ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/1617a8cc-362e-4749-83d3-22e2e656c4b3)
 
+or lang.exe running in tray:
+
+![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/e50f55e5-2ac6-4140-a9e7-0053df50594b)
