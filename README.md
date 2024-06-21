@@ -10,6 +10,8 @@ First steps:
   Move to: Win + r -> regedit
   ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/0f869c2c-2f70-4e8f-8163-5e92993c484b)
 
+  
+
   Continue moving to: HKEY_CURRENT_USER->Keyboard Layout->Preload
   ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/412b664a-be8a-4e66-a6f4-3d216d438567)
 
