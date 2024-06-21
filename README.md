@@ -8,7 +8,7 @@ And continue by this guide
 
   For checking your language codes do next steps (**if you also using it only for eng & ukr**, and separate from rus hotkey switches, you **DONT DO NEXT STEPS. MOVE TO NEXT STEP "Setting standart Windows 10 layout macros"**):
 
-  Use: `Win + R` -> regedit
+  Use: `Win + R` -> `regedit`
 
   ![image](https://github.com/xmdn/2_of_3_lang_switch_hotkey/assets/16866473/0f869c2c-2f70-4e8f-8163-5e92993c484b)
 
